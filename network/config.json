@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "images/CREA_logo_80.png",
+    "link": "https://www.crea.ca/",
+    "text": "The Canadian Real Estate Association"
+  },
+  "text": {
+    "more": "",
+    "intro": "Topics, Subtopics, Questions, Headlines and Related Searches extracted from SEMrush API",
+    "title": "<font size='+1'></font><br><i>Comparison of Online Content Related <br> to the Keyword 'Real Estate Agent' (Canada vs. Toronto, Past 60 Days)"
+  },
+  "legend": {
+    "edgeLabel": "Edge",
+    "colorLabel": "Node Type",
+    "nodeLabel": "Node"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "search volume",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
